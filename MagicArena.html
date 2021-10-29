@@ -4,34 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilosmenu.css">
+    <link rel="stylesheet" href="./estilosmenu.css">
     <script src="https://kit.fontawesome.com/5e3f8ad041.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Magic Arena</title>
 </head>
 <body>
     <header>
         <div class="nav-bar" id="btnmenu"><i class="fas fa-bars"></i>Menú</div>
-        <nav class="main-nav">
+      
+        <nav class="main-nav" data-aos="fade-down"><!--Animación-->
             <ul class="menu" id="menu">
-                <li class="menu-item"><a href="" class="menu-link">Inicio</a></li>
+                <img src="./imagenes/logo-rojo.jpg" class="logo" alt="">
+                <li class="menu-item"><a href="./MagicArena.html" class="menu-link">Inicio</a></li>
                 <li class="menu-item container-submenu"><a href="#" class="menu-link submenu-btn">Como jugar MTG Arena <i class="fas fa-angle-down"></i></a>
                     <ul class="submenu">
-                        <li class="menu-item"><a href="" class="menu-link">Historia</a></li>
-                        <li class="menu-item"><a href="" class="menu-link">Formato Historico</a></li>
-                        <li class="menu-item"><a href="" class="menu-link">Formato Estandar</a></li>
-                        <li class="menu-item"><a href="" class="menu-link">Descargar MTG Arena</a></li>
+                        <li class="menu-item"><a href="./descarga.html" class="menu-link">Descargar MTG Arena</a></li>
+                        <li class="menu-item"><a href="./guia.html" class="menu-link">Guía Básica</a></li>
+                        <!--<li class="menu-item"><a href="" class="menu-link">Formato Estandar</a></li>-->
+                        <!--En descargar mtg arena incluir requisitos -->
+                        <li class="menu-item"><a href="./formato.html" class="menu-link">Formatos Incluidos</a></li>
                     </ul>
 
                 </li>
-                <li class="menu-item"><a href="" class="menu-link">Campo para llenar(contacto?)</a></li>
-
-                
-
+                <li class="menu-item"><a href="./formulario.html" class="menu-link">Registro</a></li>
 
             </ul>
         </nav>
+        <img src="./imagenes/i4.jpg" alt="MTG" class="imagen-principal" >
     </header>
-    <script src="menu.js"></script>
+
+    <div class="contenedor">
+        <div class="contenido-1">
+            <h1>Magic: The Gathering Arena</h1>
+            <p>Magic The Gathering Arena es un juego free-to-play digital de cartas coleccionables desarrollado y publicado por Wizards of the Coast. El juego es una adaptación digital del juego de cartas Magic: El encuentro (Magic the Gathering formato físico), que permite a los jugadores obtener cartas a través de paquetes de boosters, logros alcanzados en el juego o compras de microtransacciones, y construir sus propios mazos para desafiar a otros jugadores. Se le conoce comúnmente como MTG Arena​ o simplemente Arena dentro del contexto más amplio de Magic: The Gathering . El juego se lanzó en estado beta en noviembre de 2017 y se lanzó por completo para los usuarios de Microsoft Windows en septiembre de 2019 y en macOS en junio de 2020. Wizards a finales del año 2020 confirmó que la versión móvil de Magic The Gathering Arena está disponible en todo el mundo, pero a su lanzamiento solo se encuentra en ciertos dispositivos móviles, la mayoría de ellos de gama alta.</p>
+
+
+        </div>
+        <div class="contenido">
+            <h1>Elige tu color</h1>
+            <p><b>Cada mazo tiene un estilo de juego diferente, que depende de las características de su color.</b><br><em>¡Descubramos los diversos colores de Magic!</em></p>
+            <p><b>En Magic existen cinco colores:</b>el blanco (W), el azul (U), el negro (B), el rojo (R) y el verde (G), cada uno con sus propias especialidades.</p>
+            <ul>
+                <li>El blanco es el color del orden, la protección y la luz. La magia blanca cura y defiende, pero también puede limpiar el campo de batalla con una ola de luz purificadora. Tiene acceso a enormes ejércitos de ángeles, caballeros y campeones que te ayudarán a controlar el campo de batalla.</li>
+                <li>El azul es el color del engaño, la lógica y las ilusiones. La magia azul evade y engaña, pero también puede ser la fuente de un conocimiento sin fin. Puede invocar enormes criaturas de las profundidades de los océanos o un ejército volador de las nubes.</li>
+                <li>El negro es el color de la muerte, la ambición y la oscuridad. La magia negra puede reanimar a los muertos, provocar la locura y absorber la vida de los seres vivos. Puede invocar vampiros, zombies, demonios y una horda de otros seres sombríos e impuros para que cumplan tu voluntad.</li>
+                <li>El rojo es el color de la libertad, la emoción y el impulso. Utiliza fuego y rayos para destruir a sus enemigos y terremotos para abrir la mismísima tierra. El ejército rojo puede ser rápido y temerario, pero también tiene acceso a enormes dragones que pueden sobrevolar y devorar a los enemigos.</li>
+                <li>El verde es el color del crecimiento, el instinto y la naturaleza. La magia verde puede crear criaturas enormes a partir de otras más pequeñas, inundar el campo de batalla con maná y dar caza a las criaturas enemigas. El ejército verde está lleno de depredadores feroces, poderosas bestias y otros habitantes del bosque.</li>
+                <li>Existen tambien hechizos o permanentes incoloros, estas cartas suelen estar incluidas en los mazos, en su mayoria artefactos o tierras aunque existen barajas compuestas en su totalidad por cartas incoloras.<br><em>De hecho algunas de estas barajas tienen un alto rendimiento en el metajuego actual.</em></li>
+
+            </ul>
+            <img src="./imagenes/colores-magic.jpg" class="colores-magic" alt="">
+            <p><b>¿Cómo se representa todo esto en el sistema de juego?</b></p>
+            <p>Cuando juegues con el color blanco, podrás invocar un enorme ejército y protegerlo del daño con poderosos hechizos y habilidades. Podrás ganar vida y anular los esfuerzos de tu oponente mientras envías a tus fuerzas para acabar con él. Tus criaturas son tu mejor defensa, así que no tienes que preocuparte tanto por el ataque de las criaturas de tu oponente.</p>
+            <p><em>Puede que el blanco sea el color de la defensa, ¡pero puede dar un buen golpe!</em></p>
+            <p>Cuando juegues con el color azul, podrás manipular tanto tu mazo como el del oponente en tu propio beneficio. Robarás un montón de cartas adicionales. Podrás anular las criaturas de tu oponente antes siquiera de que lleguen a la mesa y asegurarte de que sus hechizos fallan. Gobernarás los cielos invocando todo tipo de criaturas voladoras y, como el oponente lo tendrá más difícil para bloquearlas, podrás sobrevolar a sus defensores para alcanzar la victoria.</p>
+            <p><em>El azul consiste en frustrar los planes de tu oponente mientras allanas el camino hacia la victoria.</em></p>
+            <p>Cuando juegues con el color negro, podrás destruir a las criaturas de tu oponente y, a veces, traerlas de entre los muertos para que luchen a tu lado. Obligarás a tu oponente a descartar cartas de su mano, neutralizando sus fuerzas antes de que pueda usarlas contra ti. Tu ejército tendrá una mezcla de muertos vivientes muy resistentes y horrores difíciles de bloquear, así como las criaturas que hayas sacado de tu cementerio o del de tu oponente.</p>
+            <p><em>La magia negra hará cualquier cosa para ganar poder, sin importar el coste.</em></p>
+            <p>Cuando juegues con el color rojo, causarás daño a cualquier cosa que esté en tu camino: criaturas enemigas, Planeswalkers enemigos e incluso a tu propio oponente. Podrás romper sus artefactos y devastar sus tierras. Invocarás una horda de trasgos rápidos como el rayo o cubrirás los cielos con gigantescos dragones.</p>
+            <p><em>La magia roja no es sutil ni limpia. Es simplemente fuerza en estado puro.</em></p>
+            <p>Cuando juegues con el color verde, siempre tendrás acceso al maná que necesitas para llevar a cabo tus planes. Tus hechizos potenciarán a tus criaturas y las mantendrán en el campo de batalla incluso cuando parezca que están perdidas. Tu ejército estará lleno de grandes y resistentes monstruosidades que golpearán a tu oponente hasta cuando las bloqueen.</p>
+            <p><em>La magia verde toma el control de las fuerzas de la naturaleza y las lanza contra tu oponente.</em></p>
+            <p><b>Esto es una guia para tener conocimiento de que va cada color.<strong>Es importate saber que un mazo puede estar compuesto de un color, estos mazos se conocen como mono-color,como asi tambien de dos o mas colores hasta incluso pueden contener los cinco colores (hay cartas que para ser jugadas requieren los cinco colores).</strong><br><em>En fin a medida que juegues te irás acostumbrando al juego y podrás optar por alguna estrategia en particular, no hay una estrategia que sea mejor que otra la variedad de posibilidades es increiblemente amplia. </em></b></p>
+              
+        </div>
+        <!--<aside class="sidebar">
+            <h3>sidebar</h3>
+        </aside>-->
+        <div class="widget-1">
+            <div class="text-1">
+                <p class="img-text">Lista de Mazos Estandar TIER 1</p>
+            </div>
+            <h3 class="img-text">Lista de Mazos Estandar TIER 1</h3>
+            
+        </div>
+        <div class="widget-2">
+            <div class="text">
+                <h3>Lista de Mazos Históricos TIER 1</h3>
+            </div>
+
+
+        </div>
+        <div class="widget-3">
+            <img src="./imagenes/duresss.jpg" alt="card" class="image">
+            <h3 class="img-text">Lista de Mazos Históricos TIER 1</h3>
+
+        </div>
+        <footer>           
+            <h3>Redes Sociales</h3>
+            <ul class="redes-sociales">
+                <li class="iconos-redes-sociales"><a href="https://www.facebook.com/MagicTheGathering.es/"><i class="fab fa-facebook"></i></a></li>
+                <li class="iconos-redes-sociales"><a href="https://twitter.com/wizards_magicES"><i class="fab fa-twitter"></i></a></li>
+                <li class="iconos-redes-sociales"><a href="https://www.twitch.tv/magic"><i class="fab fa-twitch"></i></a></li>
+                <li class="iconos-redes-sociales"><a href="https://www.youtube.com/channel/UC8ZGymAvfP97qJabgqUkz4A"><i class="fab fa-youtube"></i></a></li>
+                <li class="iconos-redes-sociales"><a href="https://www.instagram.com/wizards_magic/"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <p>Web enfocada a dar los primeros pasos en Magic The Gathering Arena<br>Contacto: Inicio.MagicArena@gmail.com</br>Tel: +54 0388-14207007</p>
+            <div class="contenedor-logo">
+                <img src="./imagenes/logo-rojo.jpg" class="logo" alt="">
+            </div>
+            
+
+          
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="./main.js"></script>
 
 </body>
 </html>

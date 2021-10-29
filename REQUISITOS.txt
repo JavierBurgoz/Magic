@@ -1,0 +1,67 @@
+                             REQUISITOS PC
+
+REQUISITOS DE MAGIC: THE GATHERING ARENA
+¿Quieres saber cuáles son los requisitos mínimos y recomendados para jugar a Magic: The Gathering Arena en PC? A continuación te mostramos los requerimientos y las especificaciones técnicas oficiales que necesita tu ordenador para correr el juego y así puedas conocer cuánto espacio ocupa, cuánto de RAM, procesador o gráfica es recomendable tener para conseguir el mejor rendimiento y todo lo necesario para saber si tu PC es compatible con Magic: The Gathering Arena o no.
+
+Actualizado: 19:21 22/7/2021
+Requisitos mínimos
+Sistema Operativo: Windows 7.
+Procesador: Intel Core2 Duo E4700 @ 2.60GHz / AMD Athlon 64 X2 Dual Core 5600+
+Tarjeta de video: GeForce 8800 GTX / Radeon HD 6570.
+RAM: 2 GB RAM.
+Espacio en Disco: N/A.
+Direct X: Directx 11.
+Requisitos Recomendados
+Desconocidos o pendientes de publicación.
+
+                                   MOVIL
+
+Dispositivos móviles compatibles y requisitos mínimos
+Seguir
+Para instalar e iniciar la aplicación, asegúrate de que tu dispositivo móvil cumple los requisitos mínimos.
+
+ 
+
+Nota importante: Debido a la gran variedad y a las diferencias entre los dispositivos móviles, no podemos proporcionar una lista completa de los dispositivos compatibles. A continuación se muestra una lista de ejemplos de dispositivos compatibles conocidos sobre la premisa de que se juega con la configuración estándar. Consulta la información de software y sistema de tu teléfono para comprobar la compatibilidad.
+
+ 
+
+Dispositivos compatibles:
+Asus ROG Phone 3	iPad mini (5.ᵃ gen)	Realme v3
+Asus ROG Phone II	iPhone 12	Redmi 10X Pro 5G
+Google Pixel 3	iPhone 11	Carrera Redmi K30 5G
+Google Pixel 2	iPhone XS	Samsung Galaxy A71 5G
+Honor Play 4	iPhone XR	Samsung Galaxy Note 10+
+Huawei Mate 20 Pro	iPhone X	Samsung Galaxy Note 9
+Huawei Mate 30 Pro 4G	iPhone 8	Samsung Galaxy S10
+Huawei Mate 30 Pro 5G	LG G7 ThinQ	Samsung Galaxy S10+ 5G
+Huawei P20 Pro	Motorola One 5G	Samsung Galaxy S20 Ultra
+Huawei P30 Pro	OnePlus 6T	Samsung Galaxy S9
+iPad Pro de 12" (3.ª/4.ª generación)	OnePlus 7 Pro	Sony Xperia XZ2
+iPad Pro 11" (1.ª/2.ª generación)	OnePlus 8	Sony Xperia XZ3
+iPad Air (3.ª/4.ª generación)	Oppo Reno 3 Vitality	Vivo Y70s
+iPad (8.ª generación)	Oppo Reno 3 5G	Xiaomi Redmi K30 Ultra
+ 
+
+¿ Cuáles son las especificaciones recomendadas* ?
+ 
+
+Versión iOS: iOS13 y posteriores
+
+Versión Android: 6.0 (Marshmallow)
+o posteriorRAM: 4
+GB o más API gráfica:
+Compresión de texturas: ETC2
+
+Chipsets recomendados
+
+Kirin 960 o
+
+Snapdragon 835 o
+
+Exynos 8895
+
+ 
+
+* Los dispositivos móviles que superan las especificaciones recomendadas también funcionarán bien.
+
