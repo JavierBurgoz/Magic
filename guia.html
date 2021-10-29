@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/5e3f8ad041.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./estilosmenu.css">
+    <script src="https://kit.fontawesome.com/5e3f8ad041.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Guía Básica</title>
 </head>
 <body>
     <header>
         <div class="nav-bar" id="btnmenu"><i class="fas fa-bars"></i>Menú</div>
-        <nav class="main-nav">
+        <nav class="main-nav" data-aos="fade-down"><!--Animación-->
             <ul class="menu" id="menu">
-                <li class="menu-item"><a href="./MagicArena.html" class="menu-link">Inicio</a></li>
+                <li class="menu-item"><a href="./index.html" class="menu-link">Inicio</a></li>
                 <li class="menu-item container-submenu"><a href="#" class="menu-link submenu-btn">Como jugar MTG Arena <i class="fas fa-angle-down"></i></a>
                     <ul class="submenu">
                         <li class="menu-item"><a href="./descarga.html" class="menu-link">Descargar MTG Arena</a></li>
@@ -32,7 +34,8 @@
     </header>
 
     <main>
-        <h1>MAGIC: THE GATHERING ARENA – GUÍA PARA PRINCIPIANTES</h1>
+
+        <h1 class="title-ul-img">MAGIC: THE GATHERING ARENA – GUÍA PARA PRINCIPIANTES</h1>
         <p>Magic: The Gathering Arena, la aclamada versión digital del rompedor juego de cartas coleccionables, ya está disponible en Epic Games Store. MTG Arena logra que el legendario juego de cartas sea más accesible todavía. Es gratis, te enseña cómo jugar y te ayuda durante las partida automatizando las reglas. Si has sentido curiosidad sobre Magic, es el mejor momento para comenzar a jugar.</p>
         <p>En Epic Game Store puedes encontrar tu puerta de entrada el mejor juego de cartas.</p>
         <p>Este artículo sirve de guía para los jugadores que todavía no han dado el salto a MTG Arena. Nos vamos a centrar en cuatro puntos clave:</p>
@@ -40,38 +43,47 @@
         <li>Aprender estrategias</li>
         <li>Descubrir los mejores modos para empezar a jugar</li>
         <li>Enfrentarte a tus amigos</li>
-        <h2>CÓMO CONSEGUIR CARTAS MAGIC</h2>
-        <img src="./imagenes/guia1.jpg" alt="">
+        <h2 class="title-ul-img">CÓMO CONSEGUIR CARTAS MAGIC</h2>
+        <img src="./imagenes/guia1.jpg" class="img-guia" alt="">
         <p>MTG Arena arranca con una colección de cartas para que des los primeros pasos. Abre tu cuenta y tendrás cientos de cartas solo por registrarte, suficientes para jugar con múltiples estrategias y actualizar tus mazos antes de que hayas tenido que abrir un pack de cartas. Además, abajo podrás encontrar algunos códigos para conseguir 18 packs de cartas más.</p>
         <p></p>
         <a href="https://draftsim.com/mtg-arena-codes/"><font COLOR="blue">Clic e inserta estos Codes en la tienda dentro de MTG ARENA</font></a>
         <p>Vamos a ver el camino que debes seguir para conseguir más cartas.</p>
-        <li><b>5 Mazos para Comenzar.</b>Una vez que completes las batallas introductorias, desbloquearás cinco mazos, uno por cada color de maná de Magic. Te encontrarás con mazos de introducción divertidos que te permitirán conocer los aspectos básicos de una partida de Magic, y quizás hasta descubras una a dos cosas fantásticas que puedes hacer en el juego.</li>
-        <li><b>Mejoras para los Mazos de Principiante.</b>A medida que juegues, comenzarás a completar un Árbol de Maestrías que desbloquea más recompensas. La primera de estas recompensas te darán cartas más poderosas para cada uno de tus mazos de principiante.</li>
-        <li><b>10 Mazos Más Intermedios.</b>Progresar en el Árbol de Maestrías desbloqueará 10 mazos adicionales para tu colección. Cada uno de estos mazos usá dos colores y se puede hacer todavía más daño si los usas.</li>
-        <li><b>3 Packs para cada Set de Cartas.</b>Con el lanzamiento de cada nuevo set de cartas Estándar, queremos dar a los jugadores un impulso en su colección con códigos para desbloquear packs. Los puedes usar ahora mismo para desbloquear estos packs para todas las cartas en Estándar. Esto suma 18 packs de cartas adicionales. Usar los códigos siguientes en la tienda para desbloquear tus packs.<br><a href="https://draftsim.com/mtg-arena-codes/"><em>Clic e inserta estos Codes en la tienda dentro de MTG ARENA</em></a></li>
-        <li><b>Wind Cards.</b>Estas poderosas cartas desbloquearán cualquier otra carta en el juego que tenga la misma rareza. Abre una Mythic Rare Wildcard y canjeala por cualquier carta mythic rare en el juego. Ganas Wild Cards abriendo packs, con un medidor que te indica cuantas packs tienes que abrir hasta conseguir la próxima.</li>
-        <li><b>Recompensas de Carta Individual (ICRs)</b>Puedes conseguir ICRs en ciertos eventos y con victorias diarias. Estas te recompensan con cartas aleatorias de rareza poco común o superior.</li>
-        <li><b>Ganar/Comprar Packs.</b>Puedes ganar oro suficiente cada día para desbloquear el pack de carta que quieras. También puedes comprar más packs con Gemas. Los packs cuestan entre $1.00 y $99.99 dependiendo de la cantidad de Gemas que compres de golpe.</li>
-        <h2>APRENDIENDO LAS ESTRATEGIAS</h2>
+        <ul class="ul-guia">
+            <li><b>5 Mazos para Comenzar.</b>Una vez que completes las batallas introductorias, desbloquearás cinco mazos, uno por cada color de maná de Magic. Te encontrarás con mazos de introducción divertidos que te permitirán conocer los aspectos básicos de una partida de Magic, y quizás hasta descubras una a dos cosas fantásticas que puedes hacer en el juego.</li>
+            <li><b>Mejoras para los Mazos de Principiante.</b>A medida que juegues, comenzarás a completar un Árbol de Maestrías que desbloquea más recompensas. La primera de estas recompensas te darán cartas más poderosas para cada uno de tus mazos de principiante.</li>
+            <li><b>10 Mazos Más Intermedios.</b>Progresar en el Árbol de Maestrías desbloqueará 10 mazos adicionales para tu colección. Cada uno de estos mazos usá dos colores y se puede hacer todavía más daño si los usas.</li>
+            <li><b>3 Packs para cada Set de Cartas.</b>Con el lanzamiento de cada nuevo set de cartas Estándar, queremos dar a los jugadores un impulso en su colección con códigos para desbloquear packs. Los puedes usar ahora mismo para desbloquear estos packs para todas las cartas en Estándar. Esto suma 18 packs de cartas adicionales. Usar los códigos siguientes en la tienda para desbloquear tus packs.<br><a href="https://draftsim.com/mtg-arena-codes/"><em>Clic e inserta estos Codes en la tienda dentro de MTG ARENA</em></a></li>
+            <li><b>Wind Cards.</b>Estas poderosas cartas desbloquearán cualquier otra carta en el juego que tenga la misma rareza. Abre una Mythic Rare Wildcard y canjeala por cualquier carta mythic rare en el juego. Ganas Wild Cards abriendo packs, con un medidor que te indica cuantas packs tienes que abrir hasta conseguir la próxima.</li>
+            <li><b>Recompensas de Carta Individual (ICRs)</b>Puedes conseguir ICRs en ciertos eventos y con victorias diarias. Estas te recompensan con cartas aleatorias de rareza poco común o superior.</li>
+            <li><b>Ganar/Comprar Packs.</b>Puedes ganar oro suficiente cada día para desbloquear el pack de carta que quieras. También puedes comprar más packs con Gemas. Los packs cuestan entre $1.00 y $99.99 dependiendo de la cantidad de Gemas que compres de golpe.</li>
+        </ul>
+        
+        <h2 class="title-ul-img">APRENDIENDO LAS ESTRATEGIAS</h2>
         <p>A medida que progreses en el juego, desbloquees nuevos mazos y añadas cartas más poderosas, te cruzarás con rivales más y más difíciles.</p>
         <p>Tienes disponible muchas fuentes de información que te enseñarán a usar los mazos y las estrategias. Te dejamos una lista de sitios recomendados:</p>
-        <li><b>ProGuides.com</b>Esta web de consejos tiene cuatro cursos excelentes sobre MTG Arena. Dos de ellos te enseñan los fundamentos básicos de Magic y los dos restantes te explican cómo sacar partido a tus cartas. Puedes ver los cursos después de crearte una cuenta en ProGuides desde <a href="https://www.proguides.com/courses/magic-the-gathering"><font COLOR="blue">Aquí</font></a></li>
-        <li><b>MTG Arena Subreddit.</b>La comunidad del juego en Subreddit es muy activa y siempre cuenta con un post fijado para los nuevos jugadores que está lleno de ayudas y de jugadores con experiencia. Puedes unirte a ella <a href="https://www.reddit.com/r/MagicArena/"><font COLOR="blue">Aquí</font></a></li>
-        <li><b>AetherHub.</b>Existen muchas páginas fantásticas que ofrecen ideas sobre mazos, guías y herramientas. <a href="https://aetherhub.com/"><font COLOR="blue">AetherHub</font></a> es uno de esos sitios. Tienen guías para nuevos jugadores, secciones de mazos y hasta organizan torneos de Magic.</li>
-        <li><b>Perder partidas.</b>No hay mejor aprendizaje que perder contra alguien y analizar lo que ha pasado. Incluso los mejores jugadores del mundo pierden con frecuencia. Analiza las debilidades de tu mazo y toma nota de las cartas poderosas de tus contrincantes. Seguro que puedes aprender nuevos trucos.</li>
-        <h2>LOS MEJORES MODOS DE JUEGO PARA EMPEZAR A JUGAR</h2>
-        <img src="./imagenes/guia2.jpg" alt="">
+        <ul class="ul-guia">
+            <li><b>ProGuides.com</b>Esta web de consejos tiene cuatro cursos excelentes sobre MTG Arena. Dos de ellos te enseñan los fundamentos básicos de Magic y los dos restantes te explican cómo sacar partido a tus cartas. Puedes ver los cursos después de crearte una cuenta en ProGuides desde <a href="https://www.proguides.com/courses/magic-the-gathering"><font COLOR="blue">Aquí</font></a></li>
+            <li><b>MTG Arena Subreddit.</b>La comunidad del juego en Subreddit es muy activa y siempre cuenta con un post fijado para los nuevos jugadores que está lleno de ayudas y de jugadores con experiencia. Puedes unirte a ella <a href="https://www.reddit.com/r/MagicArena/"><font COLOR="blue">Aquí</font></a></li>
+            <li><b>AetherHub.</b>Existen muchas páginas fantásticas que ofrecen ideas sobre mazos, guías y herramientas. <a href="https://aetherhub.com/"><font COLOR="blue">AetherHub</font></a> es uno de esos sitios. Tienen guías para nuevos jugadores, secciones de mazos y hasta organizan torneos de Magic.</li>
+            <li><b>Perder partidas.</b>No hay mejor aprendizaje que perder contra alguien y analizar lo que ha pasado. Incluso los mejores jugadores del mundo pierden con frecuencia. Analiza las debilidades de tu mazo y toma nota de las cartas poderosas de tus contrincantes. Seguro que puedes aprender nuevos trucos.</li>
+        </ul>
+        
+        <h2 class="title-ul-img">LOS MEJORES MODOS DE JUEGO PARA EMPEZAR A JUGAR</h2>
+        <img src="./imagenes/guia2.jpg" class="img-guia" alt="">
         <p>En MTG Arena tienes múltiples modos de juego para comenzara jugar, con diferentes niveles ideales para los principiantes. Os dejamos una lista de modos recomendados, del más fácil al más difícil, desde el punto de vista del jugador.</p>
-        <li><b>Partida con Bot.</b>Prueba tus habilidades y mazos contra Sparky, la IA que te ayudará a aprender. Es un modo fantástico para jugar hasta que te sientas cómodo con tu mazo de cartas.</li>
-        <li><b>Partida Estándar.</b>Son partidas no competitivas contra otros jugadores de Magic. Céntrate en conseguir tus primeras victorias aquí antes de saltar a las partidas competitivas. Aquí es dónde encontrarás jugadores novatos o que están probando sus mazos nuevos.</li>
-        <li><b>Partida Competitiva.</b>Es el modo principal donde puedes subir en los rankings de jugadores y hasta clasificarte para torneos con los mejores del mundo. Siempre te cruzarás con jugadores que tengan tu mismo nivel. Accede a este modo cuando te sientas cómodo con tus mazos. ¡No te preocupes si pierdes!</li>
-        <li><b>All Play Modes.</b>Si estás buscando más retos, apaga el botón “Juega Modos Arena” en la parte alta derecha de tu pantalla para desbloquear todos los modos que se juegan en MTG Arena. Esto incluye el modo el mejor de tres.</li>
-        <li><b>Draft & Sealed.</b>Una de las formas alternativa más conocidas de jugar a Magic es con una configuración limitada. Aquí recibes un número de cartas limitado al comenzar para construir tu mazo. En Sealed abres seis packs y te construyes tu mazo a partir de ahí. En Draft abres tres packs y coges una carta para el mazo cada vez. Draft es uno de los modos de juego más queridos en Magic por su rejugabilidad y por cómo te reta. Adéntrate en este modo una vez que tengas confianza con la creación de mazos. Lo vas a necesitar.</li>
-        <h2>RETANDO A TUS AMIGOS</h2>
-        <img src="./imagenes/guia3.jgp.png" alt="">
+        <ul class="ul-guia">
+            <li><b>Partida con Bot.</b>Prueba tus habilidades y mazos contra Sparky, la IA que te ayudará a aprender. Es un modo fantástico para jugar hasta que te sientas cómodo con tu mazo de cartas.</li>
+            <li><b>Partida Estándar.</b>Son partidas no competitivas contra otros jugadores de Magic. Céntrate en conseguir tus primeras victorias aquí antes de saltar a las partidas competitivas. Aquí es dónde encontrarás jugadores novatos o que están probando sus mazos nuevos.</li>
+            <li><b>Partida Competitiva.</b>Es el modo principal donde puedes subir en los rankings de jugadores y hasta clasificarte para torneos con los mejores del mundo. Siempre te cruzarás con jugadores que tengan tu mismo nivel. Accede a este modo cuando te sientas cómodo con tus mazos. ¡No te preocupes si pierdes!</li>
+            <li><b>All Play Modes.</b>Si estás buscando más retos, apaga el botón “Juega Modos Arena” en la parte alta derecha de tu pantalla para desbloquear todos los modos que se juegan en MTG Arena. Esto incluye el modo el mejor de tres.</li>
+            <li><b>Draft & Sealed.</b>Una de las formas alternativa más conocidas de jugar a Magic es con una configuración limitada. Aquí recibes un número de cartas limitado al comenzar para construir tu mazo. En Sealed abres seis packs y te construyes tu mazo a partir de ahí. En Draft abres tres packs y coges una carta para el mazo cada vez. Draft es uno de los modos de juego más queridos en Magic por su rejugabilidad y por cómo te reta. Adéntrate en este modo una vez que tengas confianza con la creación de mazos. Lo vas a necesitar.</li>
+        </ul>
+        
+        <h2 class="title-ul-img">RETANDO A TUS AMIGOS</h2>
+        <img src="./imagenes/guia3.jgp.png" class="img-guia" alt="">
         <p>Si tienes amigos que juegan a Magic, puedes retarlos a un duelo en MTG Arena. Te contamos los pasos para poder jugar partidas contra tus amigos.</p>
-        <ol>
+        <ol class="ul-guia">
             <li>Abre MTG Arena y haz click en el icono de amigo de la parte inferior izquierda.</li>
             <li>Introduce la dirección de correo de tu amigo asociado con su cuenta de MTG Arena o su nombre de usuario en MTG Arena, incluyendo los 5 números que aparecen después de su nombre de usuario, por ejemplo e.g. Sparky#12345.</li>
             <li>Tu amigo recibirá una notificación. La próxima vez que abras tu lista de amigos verá la petición y la podrá aceptar.</li>
@@ -80,21 +92,34 @@
             <li>Una vez que le des a jugar, recibirán una notificación para unirse al reto.</li>
         </ol>
         <p>A lo largo del 2020 se incorporarán nuevas funcionalidades a la Lista de Amigos para convertirla en una experiencia más social, incluyendo un chat entre amigos.</p>
-        <h2>EN RESUMEN</h2>
-        <img src="./imagenes/guia4.jpg" alt="">
+        <h2 class="title-ul-img">EN RESUMEN</h2>
+        <img src="./imagenes/guia4.jpg" class="img-guia" alt="">
         <p>Tienes mucho por descubrir en Magic: The Gathering Arena. Nuevos sets de cartas cada mes, nuevos eventos en los que participar cada semana, una gran comunidad de esports en la que destacar. Una vez que te hagas con los aspectos básicos, encontrarás tu propio estilo de juego.</p>
-
-
-
-
-
-
-
-     
-        
+   
     </main>
+    <footer class="footer">
+        <div class="contenedor-logo">
+              <img src="./imagenes/logo-rojo.jpg" class="logo" alt="">
+          </div>
+        <div class="redes-container">
+          <h3>Redes Sociales</h3>
+          <ul class="redes-sociales">
+              <li class="iconos-redes-sociales"><a href="https://www.facebook.com/MagicTheGathering.es/"><i class="fab fa-facebook"></i></a></li>
+              <li class="iconos-redes-sociales"><a href="https://twitter.com/wizards_magicES"><i class="fab fa-twitter"></i></a></li>
+              <li class="iconos-redes-sociales"><a href="https://www.twitch.tv/magic"><i class="fab fa-twitch"></i></a></li>
+              <li class="iconos-redes-sociales"><a href="https://www.youtube.com/channel/UC8ZGymAvfP97qJabgqUkz4A"><i class="fab fa-youtube"></i></a></li>
+              <li class="iconos-redes-sociales"><a href="https://www.instagram.com/wizards_magic/"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="info-contacto">
+          <p>Web enfocada a dar los primeros pasos en Magic The Gathering Arena<br>Contacto: Inicio.MagicArena@gmail.com</br>Tel: +54 0388-14207007</p>
+        </div>
+    </footer>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="./main.js"></script>
 </body>
 </html>

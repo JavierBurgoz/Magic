@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/5e3f8ad041.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./estilosmenu.css">
+    <script src="https://kit.fontawesome.com/5e3f8ad041.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Formatos</title>
 </head>
 <body>
     <header>
         <div class="nav-bar" id="btnmenu"><i class="fas fa-bars"></i>Menú</div>
-        <nav class="main-nav">
+        <nav class="main-nav" data-aos="fade-down"><!--Animación-->
             <ul class="menu" id="menu">
-                <li class="menu-item"><a href="./MagicArena.html" class="menu-link">Inicio</a></li>
+                <li class="menu-item"><a href="./index.html" class="menu-link">Inicio</a></li>
                 <li class="menu-item container-submenu"><a href="#" class="menu-link submenu-btn">Como jugar MTG Arena <i class="fas fa-angle-down"></i></a>
                     <ul class="submenu">
                         <li class="menu-item"><a href="./descarga.html" class="menu-link">Descargar MTG Arena</a></li>
@@ -34,14 +36,15 @@
         <img src="./imagenes/i4.jpg" alt="MTG" class="imagen-principal">
     </header>
     <main>
-        <h1>Formatos incluidos dentro de MTG Arena</h1>
+        
+        <h1 class="title-ul-img">Formatos incluidos dentro de MTG Arena</h1>
         <p>Los Formatos son la manera en la que puedes usar un mazo para competir dentro del juego ya sea juego libre o clasificatorio.Estos se pueden divir en dos grupos que abarcan distintas modalidades y ellos son construido y limitado.<br>¿Que es limitado y contruido?</p>
         <p>En los formatos Construidos, por ejemplo, traes un mazo de cartas cuidadosamente seleccionadas de entre las que ya tengas. Los formatos limitados, en cambio, exigen que todo el mundo empiece con un cierto número de sobres sin abrir, a partir de los cuales cada uno construye su mazo en el momento.</p>
         <div class="formato-construido">
-            <h2>Construido</h2>
+            <h2 class="title-ul-img">Construido</h2>
             <p>Para entender como funciona este formato es importante comprender que cada determinado tiempo Wizard of the Coast (la empresa desarrolladora del juego físico y virtual) lanza una nueva coleccion de cartas compuesta aproximadamente por 350 cartas.Cada año se lanzan cuatro colecciones de Magic y se añaden a Estándar. Una vez al año, cuando se lanza la colección de otoño, las cuatro colecciones más antiguas salen de la rotación de Estándar y pasan a formar parte del formato Histórico.<br>Al dia de la fecha 24/10/2021 los formatos construidos estan compuestos por las siguientes colecciones.</p>
-            <h3>Estandar</h3>
-            <ul>
+            <h3 class="title-ul-img">Estandar</h3>
+            <ul class="ul-sitioweb">
                 <li>Inistrad cacería de media noche</li>
                 <li>Dungeons & Dragons: Aventuras en Forgotten Realms</li>
                 <li>Strixhaven: Academia de Magos</li>
@@ -49,8 +52,8 @@
                 <li>El resurgir de Zendikar</li>
 
             </ul>
-            <h3>Histórico</h3>
-            <ul>
+            <h3 class="title-ul-img">Histórico</h3>
+            <ul class="ul-sitioweb">
                 <li>Colección Básica 2021</li>
                 <li>Ikoria</li>
                 <li>Theros: Mas allá de la muerte</li>
@@ -68,13 +71,13 @@
             </ul>
         </div>
         <div class="formato-limitado">
-            <h2>Limitado</h2>
+            <h2 class="title-ul-img">Limitado</h2>
             <p>Limitado se refiere a los eventos en los que no entras con un deck que ya hayas construido antes, sino que vas a construir uno con las cartas que te salgan en los sobres. Los eventos Limitados se dividen en varias ramas, siendo las más importantes: Booster Draft y Sealed Deck.</p>
-            <h3>Booster Draft</h3>
+            <h3 class="title-ul-img">Booster Draft</h3>
             <p>¿Quieres un modo de juego que ofrezca un cierto nivel y que te permita conocer cartas nuevas al mismo tiempo? Pues tal vez te convenga un formato limitado como Booster Draft. A diferencia de los formatos Construidos, que requieren ir con un mazo cuidadosamente construido y listo para jugar, los formatos limitados te permiten construir un mazo con cartas nuevas como parte del juego.</p>
             <p>Para empezar, cada jugador abre un sobre y elige una única carta (¡sin enseñar a los demás la que ha escogido!). A continuación, pasa el resto de las cartas al jugador a su izquierda y cada jugador elige una carta del sobre que acaba de recibir, antes de pasar al siguiente las cartas restantes de nuevo. Este proceso continúa hasta que todas las cartas de los sobres hayan sido elegidas. Después se procede a la apertura de un segundo sobre, pero esta vez se pasa a la derecha. Una vez agotadas todas esas cartas, se repite el proceso con un tercer sobre, solo que pasándolo hacia la izquierda de nuevo.</p>
             <p>Una vez repartidas las tres rondas de sobres, cada cual construye su mazo con las cartas que haya seleccionado. Puedes añadir a tu mazo todas las cartas de tierras básicas (llanura, isla, pantano, montaña y bosque) que quieras, pero debes asegurarte al final de que tenga al menos 40 cartas.</p>
-            <h3>Sealed Deck</h3>
+            <h3 class="title-ul-img">Sealed Deck</h3>
             <p>Este formato es idóneo si te gusta la emoción de conocer cartas nuevas y jugar sin tener que llevar preparado tu propio mazo.</p>
             <p>A diferencia de lo que ocurre en el juego Construido, donde tienes que llegar con tu propio mazo creado estratégicamente, en los torneos de Sealed Deck empiezas construyendo un mazo nuevo a partir de seis sobres sin abrir.</p>
             <p>Las directrices exigen construir un mazo de un mínimo de 40 cartas, pero puedes añadir todas las tierras básicas (llanuras, islas, pantanos, montañas y bosques) que quieras, aunque no estuviesen en los sobres abiertos al comienzo del juego.</p>
@@ -83,11 +86,29 @@
         </div>
     </main>
 
+    <footer class="footer">
+        <div class="contenedor-logo">
+              <img src="./imagenes/logo-rojo.jpg" class="logo" alt="">
+          </div>
+        <div class="redes-container">
+          <h3>Redes Sociales</h3>
+          <ul class="redes-sociales">
+              <li class="iconos-redes-sociales"><a href="https://www.facebook.com/MagicTheGathering.es/"><i class="fab fa-facebook"></i></a></li>
+              <li class="iconos-redes-sociales"><a href="https://twitter.com/wizards_magicES"><i class="fab fa-twitter"></i></a></li>
+              <li class="iconos-redes-sociales"><a href="https://www.twitch.tv/magic"><i class="fab fa-twitch"></i></a></li>
+              <li class="iconos-redes-sociales"><a href="https://www.youtube.com/channel/UC8ZGymAvfP97qJabgqUkz4A"><i class="fab fa-youtube"></i></a></li>
+              <li class="iconos-redes-sociales"><a href="https://www.instagram.com/wizards_magic/"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="info-contacto">
+          <p>Web enfocada a dar los primeros pasos en Magic The Gathering Arena<br>Contacto: Inicio.MagicArena@gmail.com</br>Tel: +54 0388-14207007</p>
+        </div>
+      </footer>
 
-
-
-
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="./main.js"></script>
 </body>
 </html>
