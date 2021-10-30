@@ -99,10 +99,10 @@ a,a:visited {
     width: 100%;
     height: auto;
 }
-/* hasta acá header*/
+/*Hasta acá Header*/
 
 .contenedor {
-    margin: 20px auto;
+    margin-top: 20px;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
@@ -169,7 +169,7 @@ a,a:visited {
 }
   
 .logo {
-    margin: 4px 15px;
+    margin: 8px 15px 0 15px;
     max-width: 50px;
     max-height: 50px;
 }
