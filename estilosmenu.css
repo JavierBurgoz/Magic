@@ -117,12 +117,17 @@ a,a:visited {
 .contenedor .contenido-1,
 .contenedor .contenido {
     padding: 20px;
+    padding-top: 0;
     border-radius: 4px;
 }
 .contenedor .contenido-1 {
+    margin: auto;
+    max-width: 900px;
     grid-area: contenido-1;
 }
 .contenedor .contenido {
+    margin: auto;
+    max-width: 900px;
     grid-area: contenido;
 }
 .colores-magic {
@@ -140,7 +145,7 @@ a,a:visited {
     grid-area: widgets-container;
 }
 .widget {
-    margin: 20px 0;
+    margin-top: 20px;
     position: relative;
     width: 228px;
     height: auto;
@@ -169,6 +174,7 @@ a,a:visited {
     max-height: 50px;
 }
 .footer {
+    margin-top: 80px;
     padding: 15px 0;
     position: relative;
     background: #464660;
@@ -202,10 +208,12 @@ a,a:visited {
 }
   
 .info-contacto {
+    padding-right: 25px;
     text-align: right;
 }
 
 .title-ul-img {
+    margin: 40px auto 20px auto;
     text-align: center;
 }
 .ul-sitioweb {
@@ -223,6 +231,9 @@ a,a:visited {
 .img-guia {
     display: block;
     margin: auto;
+}
+.title-contenedor {
+    text-align: center;
 }
 
 
